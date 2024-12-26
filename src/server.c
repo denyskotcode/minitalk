@@ -6,7 +6,7 @@
 /*   By: dkot <dkot@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 21:17:39 by dkot              #+#    #+#             */
-/*   Updated: 2024/12/24 15:32:38 by dkot             ###   ########.fr       */
+/*   Updated: 2024/12/26 23:19:27 by dkot             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	check_signals(int signal)
 {
 	static unsigned char	current_char;
 	static int				bit_counter;
-	static char				array[10000];
+	static char				array[1000000000];
 	static int				message_length;
 
 	if (bit_counter < 8)

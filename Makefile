@@ -18,8 +18,8 @@ SERVER_SRC = server.c
 CLIENT_SRC = client.c
 
 # Object Files
-SERVER_OBJ = $(OBJDIR)/$(SERVER_SRC:.c=.o)
-CLIENT_OBJ = $(OBJDIR)/$(CLIENT_SRC:.c=.o)
+SERVER_OBJ = $(SERVER_SRC:%.c=$(OBJDIR)/%.o)
+CLIENT_OBJ = $(CLIENT_SRC:%.c=$(OBJDIR)/%.o)
 
 # Libraries
 LIBFT = $(LIBFTDIR)/libft.a
