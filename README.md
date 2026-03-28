@@ -32,3 +32,10 @@ The main constraint and learning objective is to use strictly only two signals: 
 ```bash
 git clone [https://github.com/YOUR_USERNAME/minitalk.git](https://github.com/YOUR_USERNAME/minitalk.git)
 cd minitalk
+
+
+---
+
+## License
+
+MIT © [denyskotcode](https://github.com/denyskotcode) — see [LICENSE](LICENSE) for details.
